@@ -61,14 +61,14 @@ namespace WebApplicationCenkY.Controllers
                 var product = new Product
                 {
                     Barcode = values[0],
-                    Price = decimal.Parse(values[1]),
-                    Stock = int.Parse(values[2]),
+                    Price = values[1],
+                    Stock = values[2],
                     Name = values[3],
                     ProductCode = values[4],
-                    Description = values[5],
-                    Brand = values[12],
-                    Category = values[13],
-                    Desi = values[14]
+                    Description = values[11],
+                    Brand = values[13],
+                    Category = values[16],
+                    Desi = values[24]
                 };
                 for (int i = 5; i <= 9; i++)
                 {
@@ -113,8 +113,8 @@ namespace WebApplicationCenkY.Controllers
             {
                 var values = line.Split(',');
                 var barcode = values[0];
-                var price = decimal.Parse(values[1]);
-                var stock = int.Parse(values[2]);
+                var price = values[1];
+                var stock = values[2];
                 var name = values[3];
                 var productCode = values[4];
                 var product = _dbcontext.Products.FirstOrDefault(p => p.Barcode == barcode);
