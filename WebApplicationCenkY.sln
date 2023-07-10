@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationCenkY", "WebApplicationCenkY\WebApplicationCenkY.csproj", "{73904D4E-BB54-4312-BB07-1A27D188D1AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppConsoleCY", "AppConsoleCY\AppConsoleCY.csproj", "{DC1922B9-BF18-41CB-9E05-77C7B1C5F2DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73904D4E-BB54-4312-BB07-1A27D188D1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73904D4E-BB54-4312-BB07-1A27D188D1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73904D4E-BB54-4312-BB07-1A27D188D1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73904D4E-BB54-4312-BB07-1A27D188D1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC1922B9-BF18-41CB-9E05-77C7B1C5F2DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1922B9-BF18-41CB-9E05-77C7B1C5F2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1922B9-BF18-41CB-9E05-77C7B1C5F2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1922B9-BF18-41CB-9E05-77C7B1C5F2DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD3D807A-6337-43E2-9263-38D4931D0283}
+	EndGlobalSection
+EndGlobal
